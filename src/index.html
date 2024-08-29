@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Clone</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="flex">
+        <!-- sidebar -->
+
+        <div class="hidden sm:block bg-neutral-900 h-screen w-[270px] px-4 py-3">
+            <div class="flex justify-between items-center mb-5">
+                <div class="flex items-center justify-center">
+                    <img src="./assets/note.svg" class="h-6 filter invert" alt="">
+                </div>
+                <div class="flex items-center justify-center">
+                    <img src="./assets/write.svg" class="h-6 filter invert" alt="">
+                </div>
+            </div>
+            <div class="flex gap-2 items-center">
+                <div class="text-white border border-neutral-500 rounded-full w-8 h-8 flex items-center justify-center">
+                    <img src="./assets/logo.svg" class="h-4 filter invert" alt="">
+                </div>
+                <p class="text-white">ChatGPT</p>
+            </div>
+            <div class="flex gap-2 items-center mt-4">
+                <div class="text-white  rounded-full w-8 h-8 flex items-center justify-center">
+                    <img src="./assets/4dots.svg" class="h-5 filter invert" alt="">
+                </div>
+                <p class="text-white">Explore GPTs</p>
+            </div>
+
+            <div class="mt-8">
+                <div>
+                    <p class="text-white text-xs font-semibold">Today</p>
+                </div>
+                <div class="text-white text-sm p-2 hover:bg-neutral-800 rounded-lg mt-3 hower:cursor-pointer">How to use Tailwind?</div>
+                <div class="text-white text-sm p-2 hover:bg-neutral-800 rounded-lg hower:cursor-pointer">Write article on Reactjs</div>
+                <div class="text-white text-sm p-2 hover:bg-neutral-800 rounded-lg hower:cursor-pointer">How closures work?</div>
+                <div class="text-white text-sm p-2 hover:bg-neutral-800 rounded-lg hower:cursor-pointer">Give examples of truthy and falsy</div>
+                <div class="text-white text-sm p-2 hover:bg-neutral-800 rounded-lg hower:cursor-pointer">Fix error in js</div>
+                <div class="text-white text-sm p-2 hover:bg-neutral-800 rounded-lg hower:cursor-pointer">What is nifty 50?</div>
+                <div class="text-white text-sm p-2 hover:bg-neutral-800 rounded-lg hower:cursor-pointer">How to use Alpinejs?</div>
+            </div>
+
+        </div>
+
+        <!-- Main content -->
+
+        <div class="bg-neutral-800 h-screen w-screen sm:w-[calc(100%-270px)]">
+            <div class="flex flex-col gap-4 w-[600px] mx-auto">
+                <img src="./assets/logo.svg" class="h-14 inline p-3 filter invert" alt="">
+                <div class="flex gap-4 justify-center items-center">
+                    <div class="flex flex-col gap-2 justify-start items-start border border-neutral-600 rounded-xl flex-shrink-0 w-1/4 p-2 hover:bg-neutral-700 hower:cursor-pointer">
+                        <img src="./assets/div1.svg" class="text-blue-400" alt="">
+                        <p class="text-white font-thin">Create an image for my presentation</p>
+                    </div>
+                    <div class="flex flex-col gap-2 justify-start items-start border border-neutral-600 rounded-xl flex-shrink-0 w-1/4 p-2 hover:bg-neutral-700 hower:cursor-pointer">
+                        <img src="./assets/div2.svg" class="text-red-500" alt="">
+                        <p class="text-white font-thin">Make me a personal webpage</p>
+                    </div>
+                    <div class="flex flex-col gap-2 justify-start items-start border border-neutral-600 rounded-xl flex-shrink-0 w-1/4 p-2 hover:bg-neutral-700 hower:cursor-pointer">
+                        <img src="./assets/div3.svg" class="text-yellow-300" alt="">
+                        <p class="text-white font-thin">Design a fun coding game</p>
+                    </div>
+                    <div class="flex flex-col gap-2 justify-start items-start border border-neutral-600 rounded-xl flex-shrink-0 w-1/4 p-2 hover:bg-neutral-700 hower:cursor-pointer">
+                        <img src="./assets/div4.svg" class="text-yellow-300" alt="">
+                        <p class="text-white font-thin">Experience Seoul like a local</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-[700px] mx-auto mt-44">
+                <input type="text" name="" id="" placeholder="Message ChatGPT" class="w-full bg-neutral-700 p-3 rounded-full">
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
